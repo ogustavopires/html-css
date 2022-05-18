@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #00b469, #008a50);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: white;
+    padding: 30px 20px 5px 20px;
+    box-shadow: 1px -1px 18px #00000069;
+}
+
+header > h1 {
+    color: white;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+    color: green;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    background-image: linear-gradient(to right, #83ffcb, white);
+    color: green;
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a:hover {
+    background-color: #83ffcb;
+    padding: 5px;
+    border-radius: 5px;
+    color: green;
+    transition-duration: .5s;
+}
+
+main {
+    background-color: #83ffcb;
+}
+
+.geral-block {
+    background-color: white;
+    margin: 0px 150px 0px 150px;
+    padding: 20px;
+    box-shadow: 4px 0px 18px #00000069;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.video-block {
+    background-color: green;
+    padding: 20px 50px 20px 50px;
+}
+
+.videogg {
+    justify-content: center;
+}
+
+.list-block {
+    background-color: #83ffcb;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 0px 18px #00000069;
+}
+
+.h2-list-block {
+    background-color: #008a50;
+    margin: 0px;
+}
+
+div ol {
+    columns: 2;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
