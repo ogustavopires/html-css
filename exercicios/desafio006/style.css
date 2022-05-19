@@ -57,7 +57,7 @@ article {
 }
 
 div.bloco02 p {
-    width: 400px;
+    display: block;
     background-color: rgba(0, 0, 0, 0.568);
     color: white;
     padding: 10px;
@@ -74,7 +74,7 @@ div.bloco02 p {
 }
 
 div.bloco04 p {
-    width: 400px;
+    display: block;
     background-color: rgba(0, 0, 0, 0.568);
     color: white;
     padding: 10px;
